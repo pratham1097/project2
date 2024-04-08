@@ -26,6 +26,16 @@ background-color: #242F3F;
     color: #4CAF50;
 }
 
+.nav-links li a {
+  color: #333; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition effect */
+}
+
+.nav-links li a:hover {
+  color: #009ED8; /* Change color on hover */
+}
+
 .loader-wrapper {
   width: 100%;
   height: 100%;
@@ -103,7 +113,7 @@ img {
     display: block;
     width: 20%;
   }
-  .collection {
+  .button {
     border: none;
     color: black;
     padding: 16px 32px;
@@ -117,7 +127,7 @@ img {
     border: 2px solid #4CAF50;
 }
 
-.collection:hover {
+.button:hover {
     background-color: #4CAF50;
     color: white;
 }
